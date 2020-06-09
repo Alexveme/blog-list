@@ -1,0 +1,14 @@
+GET http://localhost:9000/api/blogs
+
+###
+
+POST http://localhost:9000/api/blogs
+Content-Type: application/json
+
+{
+    "title": "Crea una base de datos con MySQL",
+    "author": "Sofia Anger",
+    "url": "www.sofiaanger.org",
+    "likes": 335
+}
+
