@@ -5,7 +5,9 @@ import create from './controller/create.js';
 const router = Router();
 
 router.route('/')
-    .get(list)
+    .get(list);
+
+router.route('/')
     .post(create);
 
 export default router;

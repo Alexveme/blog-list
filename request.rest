@@ -6,9 +6,9 @@ POST http://localhost:9000/api/blogs
 Content-Type: application/json
 
 {
-    "title": "HTML & CSS3",
-    "author": "Jordi Begues",
-    "url": "www.jordibegues.org",
-    "likes": 637
+    "title": "Introducción a Node",
+    "author": "Sarah Haus",
+    "url": "www.sarahhaus.org",
+    "likes": 795
 }
 

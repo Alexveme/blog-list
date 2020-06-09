@@ -21,10 +21,7 @@ class BlogDAO{
             likes: pBlog.likes,
         })
 
-        blog.save().then(result => {
-            response.status(201).json(result);
-            mongoose.connection.close();
-        })
+        return blog.save();
     }
 }
 
